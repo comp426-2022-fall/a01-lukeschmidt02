@@ -1,0 +1,24 @@
+{
+  "name": "lukeschmidt02-webserver",
+  "version": "1.0.0",
+  "description": "First webserver for comp 426",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "@lukeschmidt02",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "minimalist": "^1.0.0"
+  }
+}
