@@ -24,9 +24,7 @@ const port = argv.port || 3000;
 
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
-var data;
 fs.readFile('./public/index.html', (err, data) => {
-	data = data;
 	console.log(data);
 	if (err) {
 		console.error(err);
