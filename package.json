@@ -2,7 +2,7 @@
   "name": "my-webserver-thingy",
   "version": "1.0.0",
   "description": "This package is used for the webserver argument",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
